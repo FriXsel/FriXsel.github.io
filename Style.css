@@ -58,6 +58,11 @@ main {
   grid-gap: 10px;
 }
 
+main {
+  color: black;
+  background-color: rgb(221, 221, 221);
+}
+
 /*projet1*/
 
 header,
