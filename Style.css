@@ -45,7 +45,7 @@ main {
 #projets {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 10px;
 }
 
 .projet {
@@ -74,6 +74,8 @@ a {
 header a {
   color: rgb(255, 255, 255);
 }
+
+/*animations hypertexte*/
 
 .projet h3 {
   transition-duration: 0.1s;
