@@ -119,3 +119,8 @@ body {
   height: 450px;
   margin-top: 20px;
 }
+
+.description {
+  font-size: 20px;
+  font-weight: bold;
+}

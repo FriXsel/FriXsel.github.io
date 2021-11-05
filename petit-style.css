@@ -1,0 +1,19 @@
+*
+/*index*/ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  #projets {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  /*Projet 1*/
+  .description {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
