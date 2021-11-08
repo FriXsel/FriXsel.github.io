@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   #projets {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -13,7 +12,8 @@
 
   /*Projet 1*/
   .description {
-    font-size: 16px;
+    display: grid;
+    font-size: 12px;
     font-weight: normal;
   }
 }
