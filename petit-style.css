@@ -4,16 +4,37 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 520px) {
+
+@media screen and (max-width: 500px) {
   #projets {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-
-  /*Projet 1*/
+  /*Projets*/
+  /*telephone debout*/
   .description {
-    display: grid;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .img-detail-projet {
+    width: 80%;
+    height: 40%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+/*telephone coucher*/
+@media screen and (max-width: 1000px) {
+  .img-detail-projet {
+    width: 90%;
+    height: 60%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .description {
+    font-size: 16px;
     font-weight: normal;
   }
 }
