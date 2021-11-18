@@ -5,10 +5,16 @@
   padding: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 950px) {
   #projets {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+  .img-accueil {
+    width: 80%;
+    height: 60%;
+    object-fit: contain;
+    margin: 0 auto;
   }
   /*Projets*/
   /*telephone debout*/
