@@ -22,6 +22,22 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  background-image: url(images/Jaune.jpg);
+  background-repeat: repeat;
+  overflow: hidden;
+  animation: bganimation 20s infinite linear;
+  position: relative;
+}
+
+@keyframes bganimation {
+  0% {
+    background-position-x: -960px;
+  }
+
+  100% {
+    background-position-x: 960px;
+  }
 }
 
 .img-accueil {
@@ -29,12 +45,6 @@ body {
   height: 100%;
   object-fit: contain;
   margin: 0 auto;
-}
-
-header,
-footer {
-  color: white;
-  background-color: black;
 }
 
 main {
@@ -58,21 +68,20 @@ main {
   grid-gap: 10px;
 }
 
-main {
-  /* background-image: url("images/imagedevweb.jpeg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(218, 218, 218);
+header,
+footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 
 /*style lien hypertexte*/
 
 a {
-  color: rgb(25, 118, 194);
+  color: rgb(13, 67, 182);
 }
 
 header a {
-  color: rgb(255, 255, 255);
+  color: rgb(167, 245, 253);
 }
 
 /*animations hypertexte*/
@@ -92,16 +101,10 @@ header a {
 
 .oui h2 {
   transition-duration: 0.1s;
-  display: inline-block;
 }
 
 /*partie projets*/
 
-header,
-footer {
-  color: white;
-  background-color: black;
-}
 .img-detail-projet {
   width: 100%;
   height: 100%;
