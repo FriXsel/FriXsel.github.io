@@ -25,8 +25,7 @@ body {
 
   background-image: url(images/Jaune.jpg);
   background-repeat: repeat;
-  overflow: hidden;
-  animation: bganimation 20s infinite linear;
+  animation: bganimation 90s infinite linear;
   position: relative;
 }
 
@@ -81,7 +80,7 @@ a {
 }
 
 header a {
-  color: rgb(167, 245, 253);
+  color: rgb(255, 255, 255);
 }
 
 /*animations hypertexte*/
@@ -101,6 +100,7 @@ header a {
 
 .oui h2 {
   transition-duration: 0.1s;
+  display: inline-block;
 }
 
 /*partie projets*/
