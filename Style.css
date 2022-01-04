@@ -24,7 +24,8 @@ body {
   min-height: 100vh;
 
   background-image: url(images/Jaune.jpg);
-  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-size: cover;
   animation: bganimation 90s infinite linear;
   position: relative;
 }
@@ -119,7 +120,6 @@ body {
 }
 
 #projet {
-  height: 450px;
   margin-top: 20px;
 }
 
