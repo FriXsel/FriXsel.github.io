@@ -17,6 +17,8 @@ h3 {
   margin-block: 1em;
 }
 
+/*animation background*/
+
 body {
   text-align: center;
   display: flex;
@@ -29,7 +31,6 @@ body {
   animation: bganimation 90s infinite linear;
   position: relative;
 }
-
 @keyframes bganimation {
   0% {
     background-position-x: -960px;
@@ -39,6 +40,8 @@ body {
     background-position-x: 960px;
   }
 }
+
+/*images*/
 
 .img-accueil {
   width: 100%;
