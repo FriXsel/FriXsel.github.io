@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  background-image: url(images/Jaune.jpg);
+  background-image: url(images/Treillis.Jpeg);
   background-repeat: repeat-x;
   background-size: cover;
   animation: bganimation 90s infinite linear;
@@ -129,11 +129,17 @@ body {
 .description {
   font-size: 20px;
   font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.76);
+  
 }
 
 #oui {
   width: 70px;
   height: 70px;
-  padding: 10px;
   margin-bottom: 10px;
+}
+
+.label {
+    font-size: 22px;
+    font-weight: bolder ;
 }
